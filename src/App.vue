@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SpeicherMap></SpeicherMap>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SpeicherMap from './components/SpeicherMap.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SpeicherMap
   }
 }
 </script>
